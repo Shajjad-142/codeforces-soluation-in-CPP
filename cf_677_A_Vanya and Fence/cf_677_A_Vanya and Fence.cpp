@@ -4,13 +4,14 @@ int main ()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int n,h,w=0;
+                               /* for fast input and output*/
+    int n,h,w=0;             //declear n for Number of person,h for Hight
     cin>>n>>h;
-    int arr[n];
+    int arr[n];             
+    
     for(int i=0;i<n;i++)
     {
-        cin>>arr[i];
-
+        cin>>arr[i];        //arr[n] which stored every person hight
     }
     for(int i=0;i<n;i++)
     {
@@ -22,7 +23,6 @@ int main ()
 
     }
     cout<<w<<"\n";
-
 
     return 0;
 }
